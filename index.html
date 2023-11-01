@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div
+      id="error-message"
+      style="display: none; color: white; margin-top: 20px"
+    >
+      Molimo unesite ime grada!
+    </div>
+    <div class="container">
+      <div class="search">
+        <input type="text" id="inp" value="Mostar" />
+        <button onclick="funkcija()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div id="mainTemp">
+        <div class="slikica"></div>
+        <div class="stepeni"></div>
+      </div>
+      <div id="infoContainer">
+        <div id="weatherInfo">
+          <div class="subjektivniOsjecaji"></div>
+          <div class="opisi"></div>
+          <div class="pritisci"></div>
+          <div class="vlaznosti"></div>
+          <div class="speedContainer"></div>
+          <div class="brzine"></div>
+        </div>
+        <div id="windAngle">
+          <div class="smjerUgao"></div>
+          <div class="smjerovi"></div>
+        </div>
+      </div>
+      <div id="sunriseSunset">
+        <div class="izlazakSunca"></div>
+        <div class="zalazakSunca"></div>
+      </div>
+
+      <br />
+      <p class="forecastHeading">8-dnevna prognoza</p>
+      <table>
+        <tbody id="tabela"></tbody>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
