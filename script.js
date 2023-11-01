@@ -60,7 +60,7 @@ function funkcija() {
   } else {
     document.getElementById("error-message").style.display = "none"; // Hide the error message
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${grad}&appid=1a6a9f72c364c7bca1736752e5598924`
+      `https://api.openweathermap.org/data/2.5/weather?q=${grad}&appid=1a6a9f72c364c7bca1736752e5598924`
     )
       .then((r) => {
         if (r.status !== 200) {
