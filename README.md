@@ -21,7 +21,7 @@ Daily Minimum and Maximum Temperatures
 
 Display different weather icons for day and night conditions for each city.
 ## Demo
-You can access the live demo of the Weather Forecast Web Application here: Demo Link
+You can access the live demo of the Weather Forecast Web Application here: <a href="https://sanjin22.github.io/ClimateCompass/">Demo Link</a>
 
 ## Getting Started
 To run this project on your local machine, follow these simple steps:
